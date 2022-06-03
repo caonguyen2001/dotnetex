@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learning\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj": {}
+    "C:\\Learning\\dotnetex\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj": {}
   },
   "projects": {
-    "C:\\Learning\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj": {
+    "C:\\Learning\\dotnetex\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj",
+        "projectUniqueName": "C:\\Learning\\dotnetex\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj",
         "projectName": "ASPNETCOREinAction",
-        "projectPath": "C:\\Learning\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj",
+        "projectPath": "C:\\Learning\\dotnetex\\ASPNETCOREinAction\\ASPNETCOREinAction\\ASPNETCOREinAction.csproj",
         "packagesPath": "C:\\Users\\HLC_2022\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning\\ASPNETCOREinAction\\ASPNETCOREinAction\\obj\\",
+        "outputPath": "C:\\Learning\\dotnetex\\ASPNETCOREinAction\\ASPNETCOREinAction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
